@@ -48,7 +48,11 @@ body {
 	cursor: move;
 	background-color: #F3EBDE;
 	border-radius: 25px;
-	box-shadow: 0 0 8px 8px white inset;
+	-webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
 }
 
 #logo {

@@ -48,7 +48,7 @@ body {
 	cursor: move;
 	background-color: #F3EBDE;
 	border-radius: 25px;
-	-webkit-filter: blur(20px);
+	width: 300px;
 }
 
 #logo {

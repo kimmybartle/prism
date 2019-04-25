@@ -56,7 +56,7 @@ body {
 	background-color: #F3EBDE;
 	border-radius: 25px;
 	width: 150px;
-	font-family: "GT-America-Standard-Light";
+	font-family: 'GT-America-Standard-Light';
 	src: url('fonts/GT-America-Standard-Light.woff');  format('woff');
 }
 
@@ -107,7 +107,7 @@ body {
 
 .about{
 	position: fixed;
-	font-family: "GT-America-Standard-Medium";
+	font-family: 'GT-America-Standard-Medium';
 	src: url('fonts/GT-America-Standard-Medium.woff');  format('woff');
     letter-spacing: 0.5px;
     font-size: 14px;

@@ -46,9 +46,9 @@ body {
         letter-spacing: -0.3px;
 	line-height: 1.5em;
 	cursor: move;
-	box-shadow: #fefb00 3px 3px 0, 6px 6px 0px #ff0000;
-	background-color: #eee;
+	background-color: ##F3EBDE;
 	border-radius: 25px;
+	box-shadow: 0 0 8px 8px white inset;
 }
 
 #logo {

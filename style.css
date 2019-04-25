@@ -19,6 +19,13 @@ body {
 	height: 100%;
 }
 
+@font-face {
+  font-family: 'GT-America';
+  src: url(fonts/GT-America-Standard-Light.woff); format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #background-site {
 	position: absolute;
 	width: 100%;
@@ -49,6 +56,8 @@ body {
 	background-color: #F3EBDE;
 	border-radius: 25px;
 	width: 150px;
+	font-family: "GT-America-Standard-Light";
+	src: url('fonts/GT-America-Standard-Light.woff');  format('woff');
 }
 
 #logo {
@@ -98,7 +107,8 @@ body {
 
 .about{
 	position: fixed;
-	font-family: courier;
+	font-family: "GT-America-Standard-Medium";
+	src: url('fonts/GT-America-Standard-Medium.woff');  format('woff');
     letter-spacing: 0.5px;
     font-size: 14px;
     line-height: 19px;

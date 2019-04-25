@@ -59,6 +59,7 @@ body {
 	font-family: 'GT-America-Standard-Light';
 	src: url('fonts/GT-America-Standard-Light.woff');  format('woff');
 	text-transform: uppercase;
+	text-shadow: 2px 2px #ff0000;
 }
 
 #logo {

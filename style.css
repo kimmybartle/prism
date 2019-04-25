@@ -85,7 +85,7 @@ body {
 #navigation {
 	margin: 0;
 	padding:0;
-	list-style-type: none;
+	list-style-type: -moz-khmer;
 }
 
 #navigation li{
@@ -95,9 +95,8 @@ body {
 }
 
 #navigation a, div.about{
-	color: #717171;
+	color: #000;
 	padding: 0;
-	text-decoration: none;
 	padding: 1px;
 }
 #navigation a.active{

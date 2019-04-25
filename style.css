@@ -97,12 +97,47 @@ body {
 }
 #navigation a.active{
 	color: #000;
+	text-transform: uppercase;
 }
 #navigation a:hover{
 	color: #000;
+	text-transform: uppercase;
+	 &::before,
+  &::after {
+    content: '';
+    background: #000;
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    width: 0;
+  }
+  
+  &::before {
+    left: 0;
+  }
+  
+  &::after {
+    right: 0;
+    transition: width 500ms ease;
+  }
+  
+  &:hover {
+    &::before {
+      width: 100%;  
+      transition: width 500ms ease;
+    }
+    
+    &::after {
+      width: 100%;
+      background: transparent;
+      transition: 0;
+    }
+  }
+}
 }
 #navigation .current_page_item a {
-	color: red;
+	color: #000;
+	text-transform: uppercase;
 }
 
 .about{

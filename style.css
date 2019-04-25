@@ -44,8 +44,9 @@ body {
 	padding-right: 15px;
 	font: 15px;
         letter-spacing: -0.3px;
+	line-height: 1.5em;
 	cursor: move;
-	    box-shadow: #fefb00 3px 3px 0, 6px 6px 0px #ff0000;
+	box-shadow: #fefb00 3px 3px 0, 6px 6px 0px #ff0000;
 	background-color: #eee;
 }
 

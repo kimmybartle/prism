@@ -20,8 +20,8 @@ body {
 }
 
 @font-face {
-  font-family: 'GT-America-Standard-Light';
-  src: url(fonts/GT-America-Standard-Light.woff); format('woff');
+  font-family: 'GT-America-Standard-Medium';
+  src: url(fonts/GT-America-Standard-Medium.woff); format('woff');
   font-weight: normal;
   font-style: normal;
 }

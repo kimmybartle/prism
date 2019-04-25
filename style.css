@@ -49,10 +49,6 @@ body {
 	background-color: #F3EBDE;
 	border-radius: 25px;
 	-webkit-filter: blur(20px);
-    -moz-filter: blur(20px);
-    -o-filter: blur(20px);
-    -ms-filter: blur(20px);
-    filter: blur(20px);
 }
 
 #logo {
